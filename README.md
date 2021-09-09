@@ -1,2 +1,0 @@
-# Sekai
- sekai.pro
