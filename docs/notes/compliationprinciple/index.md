@@ -1,3 +1,8 @@
+---
+timeline: false
+article: false
+---
+
 # 编译原理 索引
 
 [笔记与总结文档](./Notes.md)

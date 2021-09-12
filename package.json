@@ -7,7 +7,8 @@
     "docs:build": "vuepress build docs",
     "docs:clean-dev": "vuepress dev docs --no-cache",
     "docs:dev": "vuepress dev docs --temp .temp",
-    "docs:eject-theme": "vuepress eject-hope docs"
+    "docs:eject-theme": "vuepress eject-hope docs",
+    "sync": "vuepress build docs && rsync -a --delete --progress dist/ ubuntu@sekai.pro:/home/ubuntu/sites/blog"
   },
   "devDependencies": {
     "vuepress": "^1.8.2",

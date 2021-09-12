@@ -20,8 +20,12 @@ project:
     link: /category/flash/
 
   - type: link
-    name: 萌ICP备
-    link: https://gov.moe
+    name: 🚇Travelling
+    link: https://travellings.link
+
+  - type: link
+    name: 萌ICP备20210430号
+    link: https://icp.gov.moe/?keyword=20210430
     cover: https://i.loli.net/2021/08/30/sK6e8bFGgYE5CHT.png
 
 footer: Punctuation is powerful.

@@ -1,3 +1,11 @@
+---
+origin: true
+date: 2020-12-24
+category: notes
+tags:
+  - 编译原理
+---
+
 # 编译
 
 原理－龙书
