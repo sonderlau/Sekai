@@ -7103,7 +7103,7 @@ negotiator@0.6.2:
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.2.tgz#feacf7ccf525a77ae9634436a64883ffeca346fb"
   integrity sha512-hZXc7K2e+PgeI1eDBe/10Ard4ekbfrrqG8Ep+8Jmf4JID2bNg7NvCPOZN+kfF574pFQI7mum2AUqDidoKqcTOw==
 
-neo-async@^2.5.0, neo-async@^2.6.1, neo-async@^2.6.2:
+neo-async@^2.6.1, neo-async@^2.6.2:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.2.tgz#b4aafb93e3aeb2d8174ca53cf163ab7d7308305f"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
@@ -7359,6 +7359,13 @@ opencollective-postinstall@^2.0.2:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/opencollective-postinstall/-/opencollective-postinstall-2.0.3.tgz#7a0fff978f6dbfa4d006238fbac98ed4198c3259"
   integrity sha512-8AV/sCtuzUeTo8gQK5qDZzARrulB3egtLzFgteqB2tcT4Mw7B8Kt7JcDHmltjz6FOAHsvTevk70gZEbhM4ZS9Q==
+
+openteam-postinstall@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/openteam-postinstall/-/openteam-postinstall-1.0.2.tgz#c31e98eda2c787caa8ce2b3572d665eb08cc9916"
+  integrity sha512-fwmwxXTJC9Cf+1+awPY6auO781smO7ka7YPHihTt9pxlLOqdoykvL2jg6CNnV7uyXujZSN6J+UhdRnHV1PywnA==
+  dependencies:
+    lodash "^4.17.15"
 
 opn@^5.5.0:
   version "5.5.0"
@@ -10052,6 +10059,13 @@ vuepress-plugin-feed@^0.1.8:
     remove-markdown "0.3.0"
     striptags "3.1.1"
 
+vuepress-plugin-graypage@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-graypage/-/vuepress-plugin-graypage-0.1.2.tgz#752d9ced1f3e5037bd2f13c3cece097f0455767a"
+  integrity sha512-ZARvX4tazHsdegQmbr+607Pos418luIa0WIquz/IHKo94BAmCeQ+lIeeOwstBbassslpsTiZTjYO74NeeWVvsA==
+  dependencies:
+    openteam-postinstall "^1.0.2"
+
 vuepress-plugin-mailchimp@^1.4.1:
   version "1.4.2"
   resolved "https://registry.yarnpkg.com/vuepress-plugin-mailchimp/-/vuepress-plugin-mailchimp-1.4.2.tgz#373fa1df8f03a8993817b09ddfb8bd9d04a1c665"
@@ -10161,14 +10175,13 @@ vuepress@^1.8.2:
     opencollective-postinstall "^2.0.2"
     update-notifier "^4.0.0"
 
-watchpack@1.6.1, watchpack@^1.7.4, watchpack@^2.2.0:
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/watchpack/-/watchpack-1.6.1.tgz#280da0a8718592174010c078c7585a74cd8cd0e2"
-  integrity sha512-+IF9hfUFOrYOOaKyfaI7h7dquUIOgyEMoQMLA7OP5FxegKA2+XdXThAZ9TU2kucfhDH7rfMHs1oPYziVGWRnZA==
+watchpack@^1.7.4, watchpack@^2.2.0:
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/watchpack/-/watchpack-2.2.0.tgz#47d78f5415fe550ecd740f99fe2882323a58b1ce"
+  integrity sha512-up4YAn/XHgZHIxFBVCdlMiWDj6WaLKpwVeGQk2I5thdYxF/KmF0aaz6TfJZ/hfl1h/XlcDr7k1KH7ThDagpFaA==
   dependencies:
-    chokidar "^2.1.8"
+    glob-to-regexp "^0.4.1"
     graceful-fs "^4.1.2"
-    neo-async "^2.5.0"
 
 wbuf@^1.1.0, wbuf@^1.7.3:
   version "1.7.3"

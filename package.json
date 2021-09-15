@@ -1,7 +1,7 @@
 {
-  "name": "blog",
-  "version": "1.0.0",
-  "description": "A project of vuepress-theme-hope",
+  "name": "Sekai",
+  "version": "1.0.1",
+  "description": "The truth won't spare me, and vise versa.",
   "license": "MIT",
   "scripts": {
     "docs:build": "vuepress build docs",
@@ -15,6 +15,9 @@
     "vuepress-theme-hope": "^1.19.0"
   },
   "resolutions": {
-    "watchpack": "1.6.1"
+    "watchpack": "^2.2.0"
+  },
+  "dependencies": {
+    "vuepress-plugin-graypage": "^0.1.2"
   }
 }

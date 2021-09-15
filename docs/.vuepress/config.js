@@ -2,6 +2,18 @@ const emoji = require('../../BilibiliEmoji');
 const { config } = require("vuepress-theme-hope");
 
 module.exports = config({
+  plugins: [
+    ['vuepress-plugin-graypage', {
+      // 是否开启控制台日志打印(default: false)
+      log: true,
+      // 月+日(哀悼日生效日期)
+      mournDay: ['09-18'],
+      // 年+月+日(哀悼日生效日期)
+      date: ['2021-09-18'],
+      // 特殊的日期(例如：清明节等...建议使用默认即可)
+      special: ['qinMing']
+    }]
+  ],
   title: "世界",
   description: "真相不曾放过我 我也不曾放过真相",
 
@@ -50,7 +62,7 @@ module.exports = config({
     nav: [
       { text: "主页", link: "/", icon: "home" },
       { text: "文章列表", link: "/article/", icon: "box" },
-      { text: "友链", link:"/friends", icon: "people"}
+      { text: "友链", link:"/friends", icon: "group"}
     ],
 
     sidebar: "auto",
