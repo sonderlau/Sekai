@@ -12,7 +12,7 @@ tags:
 
 # RSS 自建
 
-承接前阵子的[一篇文章]
+承接前阵子的 [一篇文章](../flash/21-08-22)
 
 在 腾讯云 上找到了性价比很合适的一款机型，同时也是比较馋国内的访问速度，于是选择了在国内主机上部署并备案。
 
@@ -67,7 +67,7 @@ services:
         image: diygod/rsshub
         restart: always
         ports:
-            - '2000:1200'
+            - '2000:1200' # 端口修改
         environment:
             NODE_ENV: production
             CACHE_TYPE: redis
@@ -113,7 +113,7 @@ volumes:
 
 复制`docker-compose.yml` 文件，对其进行简单的修改
 
-```yaml {7,13}
+```yaml {7,13,14-17}
 version: "3"
 services:
   service.rss:
@@ -127,8 +127,10 @@ services:
       - PUID=1000
       - PGID=1000
       - ALLOW_PORTS=2000 # 由于我上面的 Rsshub的端口 2000 是非 80,443的正规端口，需要做额外的设置
-    volumes:
-      - feed-icons:/var/www/feed-icons/
+    volumes:  # 对一些资源进行外置
+      - ./feed-icons:/var/www/feed-icons/
+      - ./themes.local:/var/www/themes.local
+      - ./iconfont:/var/www/lib/iconfont
     networks:
       - public_access
       - service_only
@@ -177,6 +179,8 @@ services:
 
 volumes:
   feed-icons:
+ 
+
 
 networks:
   public_access: # Provide the access for ttrss UI
@@ -189,6 +193,16 @@ networks:
 
 记得对数据库部分的账号密码进行修改
 
+
+
+同时我对一些资源文件另外单独连接了文件夹
+
+- `feed-icon` 订阅源的图标
+- `theme_local` 方便添加新的主题
+- `iconfont` 部分主题使用的图标字体文件找不到，手动添加挂在上去
+
+
+
 ```bash
 # 启动
 docker-compose up -d
@@ -198,9 +212,12 @@ docker-compose up -d
 
 访问设置好的端口，上述配置文件是 `181` 端口。
 
-使用 `admin` `password` 登入，切记修改密码。
+使用 `admin` `password` 登入，后续请修改密码。
 
 
 
 Enjoy it !
 
+
+
+[Sekai TTRSS](https://rss.sekai.pro)

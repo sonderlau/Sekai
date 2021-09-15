@@ -4,7 +4,7 @@ home: true
 icon: home
 title: index
 heroImage: /logo.svg
-bgImage: https://i.loli.net/2021/07/23/eYiIdacwZgnG2T4.jpg
+bgImage: https://sekai.pro/bg.jpg
 heroText: 世界
 tagline: 真相不曾放过我 我也不曾放过真相
 heroFullScreen: true
@@ -24,9 +24,8 @@ project:
     link: https://travellings.link
 
   - type: link
-    name: 萌ICP备20210430号
+    name: ❤️萌ICP备20210430号
     link: https://icp.gov.moe/?keyword=20210430
-    cover: https://i.loli.net/2021/08/30/sK6e8bFGgYE5CHT.png
 
 footer: Punctuation is powerful.
 ---

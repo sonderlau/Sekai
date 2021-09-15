@@ -228,14 +228,6 @@ set -x PATH <One here> $PATH
 
 
 
-#### NvChad
-
-```bash
-mv ~/.config/nvim ~/.config/Nvim.backupgit clone https://github.com/NvChad/NvChad ~/.config/nvimnvim +'hi NormalFloat guibg=#1e222a' +PackerSync
-```
-
-
-
 ## Games
 
 ### Minecraft
@@ -248,5 +240,5 @@ mv ~/.config/nvim ~/.config/Nvim.backupgit clone https://github.com/NvChad/NvCha
 
 
 
-其余参考 `Minecraft.md`
+其余参考 [Minecraft.md](../Minecraft/ServerSetup)
 
