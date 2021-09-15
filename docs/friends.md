@@ -9,9 +9,8 @@ timeline: false
 
 | Link           | Name  | Descriptions                                   |
 | -------------- | ----- | ---------------------------------------------- |
-| [7gugu's Blog] | 7gugu | 一名生活在致远星,爱好游戏周边技术开发的小Coder |
+| [7gugu's Blog](https://7gugu.com) | 7gugu | 一名生活在致远星,爱好游戏周边技术开发的小Coder |
 | More...        |       |                                                |
-|                |       |                                                |
 
 
 
