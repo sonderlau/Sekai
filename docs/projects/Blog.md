@@ -163,4 +163,4 @@ jobs:
 
 后面使用 `yarn run sync` 就可以了，我是在 `WSL` 环境中使用的，因为 Windows 下没有 `rsync` 。
 
-当然，无比添加好 SSH 证书。
+当然，记得提前添加好 SSH 证书。

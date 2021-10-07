@@ -6,12 +6,12 @@ title: index
 heroImage: /logo.svg
 bgImage: https://sekai.pro/bg.jpg
 heroText: 世界
-tagline: 真相不曾放过我 我也不曾放过真相
+tagline: 真相不曾放过我 我也不会放过真相
 heroFullScreen: true
 project:
   - type: project
     name: Hziee.site
-    desc: 整理的计科课程相关资源与笔记 - 已终止更新
+    desc: 整理的计科课程相关资源与笔记 - Archieved
     link: https://github.com/sonderlau/Hziee.site
 
   - type: link
