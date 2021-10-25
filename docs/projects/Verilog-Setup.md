@@ -80,4 +80,9 @@ make
 **Verilog-formatter > Istyle: Path**: `path/to/file/istyle`
 
 
+## 后记
 
+老师看到波形图正常之后，验收以板子上能跑通为结果。
+于是我这套基于远程端的环境配置算是就不太行了。
+
+VS Code 上仍有一些便于本地使用的 Verilog 支持插件，但我对 Windows 下一些依赖的配置感到头痛，遂没怎么弄。

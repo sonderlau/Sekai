@@ -179,28 +179,23 @@ Usage:
   - 没有云村的生活只能抑郁
 
 
-
-
-
-### fish
+### zsh
 
 ```bash
-# 设置全局变量
-set -x PATH <One here> $PATH
+sudo apt install zsh
 ```
 
-
-
-- `oh-my-fish`
-- 主题 `agnoster`
-
-
-
-#### oh-my-fish
+#### oh-my-zsh
 
 ```bash
-# Set Proxytouch $OMF_CONFIG/init.fishset -xg ALL_PROXY socks5://127.0.0.1:1080source $OMF_CONFIG/init.fish
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
+
+- [zsh-autosuggestions](https://github.com/zsh-users/zsh-autosuggestions)
+- [autojump](https://github.com/wting/autojump)
+- [syntax-highlight](https://github.com/zsh-users/zsh-syntax-highlighting)
+
+- [powerlevel10k](https://github.com/romkatv/powerlevel10k)
 
 
 
@@ -226,6 +221,25 @@ set -x PATH <One here> $PATH
 # Downloadsh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'                     # Add pluginssudo vim ~/.config/nvim/init.vim# In init.vim :call plug#begin()" Plug 'junegunn/vim-easy-align'call plug#end()
 ```
 
+
+### Unblock-Netease-Music
+
+```yml
+# dokcer-compose.yml
+version: '3'
+
+services:
+  unblockneteasemusic:
+    image: pan93412/unblock-netease-music-enhanced
+    restart: always
+    ports:
+      - 9999:8080
+    entrypoint:
+      - sh
+      - -c
+      - node app.js -o bilibili kugou kuwo -s -e http://music.163.com
+
+```
 
 
 ## Games
