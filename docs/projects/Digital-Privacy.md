@@ -11,7 +11,7 @@ tags:
 
 起因：
 
-> ![image-20211115104136360](D:/repositories/Sekai/docs/projects/Password-Manager.assets/image-20211115104136360.png)
+> ![image-20211115104136360](./Password-Manager.assets/image-20211115104136360.png)
 
 我的 Mojang 账号出现了一些可疑行为，因此官方把我的密码重置了。
 

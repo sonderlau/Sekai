@@ -1,3 +1,10 @@
+---
+date: 2020-06-22
+category: Notes
+tags:
+  - 数电
+  - 笔记
+---
 # 数字电路
 
 ---
@@ -636,7 +643,7 @@ Y &= A\overline{B} + \overline{A}B + ABCD + \overline{A} \overline{B} CD \\
 \end{aligned}
 $$
 
-​
+
 
 $$
 A+\overline{A} = 1 \quad A \cdot \overline {A} = 0 \\
