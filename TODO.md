@@ -4,4 +4,4 @@
 
 [Emojis URL](https://github.com/lrhtony/BiliEmoji/blob/master/biliEmoji.txt)
 
-Key : `嘉然 热词 
+Key : `嘉然 热词 `

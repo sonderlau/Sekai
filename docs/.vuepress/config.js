@@ -1,4 +1,4 @@
-const emoji = require('../../BilibiliEmoji');
+const emoji = require("../../BilibiliEmoji");
 const { config } = require("vuepress-theme-hope");
 
 module.exports = config({
@@ -8,8 +8,8 @@ module.exports = config({
   dest: "./dist",
   locales: {
     "/": {
-      lang: 'zh-CN'
-    }
+      lang: "zh-CN",
+    },
   },
 
   head: [
@@ -20,8 +20,7 @@ module.exports = config({
     [
       "script",
       {
-        src:
-          "https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js",
+        src: "https://cdn.jsdelivr.net/npm/react-dom/umd/react-dom.production.min.js",
       },
     ],
     ["script", { src: "https://cdn.jsdelivr.net/npm/vue/dist/vue.min.js" }],
@@ -29,9 +28,7 @@ module.exports = config({
       "script",
       { src: "https://cdn.jsdelivr.net/npm/@babel/standalone/babel.min.js" },
     ],
-    [
-      'link', { rel:'icon', href:'/assets/favicon.ico'}
-    ]
+    ["link", { rel: "icon", href: "/assets/favicon.ico" }],
   ],
 
   themeConfig: {
@@ -42,49 +39,50 @@ module.exports = config({
       hostname: "https://sekai.pro",
       count: 20,
       output: {
-        rss: true
-      }
+        rss: true,
+      },
     },
 
     // 顶栏
     nav: [
       { text: "主页", link: "/", icon: "home" },
       { text: "文章列表", link: "/article/", icon: "box" },
-      { text: "友链", link:"/friends", icon: "group"}
+      { text: "友链", link: "/friends", icon: "group" },
     ],
 
     sidebar: "auto",
 
     blog: {
-      name:"SonderLau",
+      name: "SonderLau",
       intro: "/intro/",
       sidebarDisplay: "mobile",
       links: {
-        Steam:"https://steamcommunity.com/id/SonderLau/",
-        QQ:"http://wpa.qq.com/msgrd?v=3&uin=&site=qq&menu=yes",
-        Zhihu:"https://www.zhihu.com/people/ivymax-30",
-        Email:"mailto:ge15emium@qq.com",
-        Github: "https://github.com/sonderlau"
+        Steam: "https://steamcommunity.com/id/SonderLau/",
+        QQ: "http://wpa.qq.com/msgrd?v=3&uin=&site=qq&menu=yes",
+        Zhihu: "https://www.zhihu.com/people/ivymax-30",
+        Email: "mailto:ge15emium@qq.com",
+        Github: "https://github.com/sonderlau",
       },
       avatar: "/assets/avatar.jpg",
       roundAvatar: true,
-      timeline: "Vicetone, a lifetime of faith"
+      timeline: "Vicetone, a lifetime of faith",
     },
 
     footer: {
       copyright: "<a href='https://beian.miit.gov.cn/'>冀ICP备2021020965号</a>",
-      content: "<a href='https://icp.gov.moe/?keyword=20210430' target='_blank'>萌ICP备20210430号</a>",
-      display: true
+      content:
+        "<a href='https://icp.gov.moe/?keyword=20210430' target='_blank'>萌ICP备20210430号</a>",
+      display: true,
     },
 
     comment: {
       type: "valine",
-      appId:"DK4zS1dgB3movyz2zlQUvc1c-gzGzoHsz",
+      appId: "DK4zS1dgB3movyz2zlQUvc1c-gzGzoHsz",
       appKey: "OGa6yK7Tu1dJJMxBwkayJxiT",
       placeholder: "留下你的想法...",
       avatar: "hide",
       emojiMaps: emoji,
-      emojiCDN: "//i0.hdslb.com"
+      emojiCDN: "//i0.hdslb.com",
     },
 
     copyright: {
@@ -102,7 +100,7 @@ module.exports = config({
       tasklist: true,
       tex: true,
       mermaid: true,
-      presentation: false
+      presentation: false,
     },
 
     pwa: {
@@ -115,8 +113,8 @@ module.exports = config({
             sizes: "192x192",
             purpose: "maskable",
             type: "image/png",
-          }
-        ]
+          },
+        ],
       },
     },
   },
