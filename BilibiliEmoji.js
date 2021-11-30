@@ -252,3 +252,4 @@ const emoji = {
 };
 
 module.exports = emoji;
+
