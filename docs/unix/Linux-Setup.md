@@ -117,6 +117,14 @@ git config --global http.proxy 'socks5://127.0.0.1:1080'
 git config --global https.proxy 'socks5://Diana.mshome.net:23555'
 ```
 
+
+#### gitmoji
+
+[gitmoji-cli](https://github.com/carloscuesta/gitmoji-cli)
+
+给 Git 的提交增加一些表情。
+
+
 #### GPG 配置
 
 ```bash
@@ -240,6 +248,17 @@ services:
       - node app.js -o bilibili kugou kuwo -s -e http://music.163.com
 
 ```
+
+本项待定，因为使用代理总会有各种各样的问题。
+
+
+### Glow
+
+[Glow-Github](https://github.com/charmbracelet/glow)
+
+在命令行就可以方便的查看 `Markdown` 文件。
+
+高亮、缓存，便于在 Git 的项目中进行查看。
 
 
 ## Games
