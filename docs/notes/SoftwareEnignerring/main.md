@@ -1,3 +1,10 @@
+---
+category: notes
+password: T0KiZP>=)DvN#6pB
+tags:
+  - 软件工程
+  - 期末复习
+---
 # 软件工程 复习要点
 
 ## 软件工程概念
