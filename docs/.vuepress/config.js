@@ -98,7 +98,9 @@ module.exports = config({
       footnote: true,
       mark: true,
       tasklist: true,
-      tex: true,
+      tex: {
+        strict: false
+      },
       mermaid: true,
       presentation: false,
     },

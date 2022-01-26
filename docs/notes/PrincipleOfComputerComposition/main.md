@@ -2,7 +2,6 @@
 time: 2021-12-24
 origin: true
 category: notes
-password: 3&.$Ird[8v@7z+%~,
 tags:
   - 计组
   - 考研
@@ -36,7 +35,7 @@ tags:
   - P80 例子 3.8
 - P81 浮点数
   - 格式化
-  - 规格化122222
+  - 规格化
   - P85 表示范围
 - P106 溢出判断
   - 单符号
